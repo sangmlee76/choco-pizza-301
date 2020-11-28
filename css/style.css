@@ -97,11 +97,18 @@ main section p:not(#printp){
   margin-right: 90px;
   margin-top: 40px;
   margin-left: 70px;
-  
+  font-family: 'Public Sans', sans-serif;
+  font-size: 20px;  
 }
 
 #listtwo{
   padding-top: 40px;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 20px;
+}
+
+.ingredient{
+  padding: 5px;
 }
 
 .stretch{
@@ -135,6 +142,47 @@ header section h3 {
   float: left;
 }
 
+#author{
+  font-weight: bolder;
+  margin-left: 90px;
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#tagline{
+  margin-left: 90px;
+  width: 500px;
+  height: 20px;
+  padding: 10px;
+}
+
 footer section button{
   float: right;
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+
+}
+
+#footer-logo{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#copyright{
+  width: 280px;
+  height: 20px;
+  margin: auto;
+  /* text-align: center; */
+  margin-top: 20px;
+}
+
+#blog-publisher{
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  /* text-align: center; */
 }
