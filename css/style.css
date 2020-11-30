@@ -7,11 +7,10 @@ body{
 
 #logo img{
   float: left;
-
 }
 
-#social img{
-   
+#delicious-title{
+  font-family: 'Pacifico', cursive;
 }
 
 #social{
@@ -22,7 +21,7 @@ body{
 }
 
 #pint{
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 #logo h5{
@@ -32,11 +31,6 @@ body{
   width: 400px;
 }
 
-header{
-
-   
-
-}
 
 main section h2{
   font-family: 'Do Hyeon', sans-serif;
@@ -90,6 +84,8 @@ main section p:not(#printp){
   width: 902px;
   height: 305px;
   font-size: 25px;
+  position: relative;
+  z-index: -1;
 }
 
 #listone{
@@ -107,8 +103,20 @@ main section p:not(#printp){
   font-size: 20px;
 }
 
-.ingredient{
+img.empty-checkbox{
+  height: 20px;
+  width: 20px;
+  float: left;
+  padding-right: 10px;
+}
+
+li{
   padding: 5px;
+
+}
+
+.cross-off{
+  text-decoration: line-through;
 }
 
 .stretch{
@@ -116,7 +124,6 @@ main section p:not(#printp){
   border-right-width: 0px;
   border-right-style: solid;
   max-width: 903px;
-
 }
 
 #printp{
@@ -142,13 +149,18 @@ header section h3 {
   float: left;
 }
 
+#vanessa{
+  float: left;
+  width: 700px;
+}
+
 #author{
   font-weight: bolder;
   margin-left: 90px;
   width: 300px;
   height: 20px;
   font-size: 20px;
-  padding: 10px;
+  padding: 5px;
 }
 
 #tagline{
@@ -159,30 +171,40 @@ header section h3 {
 }
 
 footer section button{
-  float: right;
   background-color: brown;
   color: white;
   border: none;
   padding: 12px 20px;
+  margin-top: 20px;
 
 }
 
+#end-of-page-hr{
+  background-image: url(../assets/hr-img.png);
+  border-right-width: 0px;
+  border-right-style: solid;
+  max-width: 903px; 
+  height: 1px; 
+  margin-top: 150px;
+}
+
 #footer-logo{
-  margin-top: 100px;
-  margin-left: 200px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  margin-top: -20px;
+  margin-left: 450px;
 }
 
 #copyright{
   width: 280px;
   height: 20px;
   margin: auto;
-  /* text-align: center; */
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #blog-publisher{
   width: 200px;
   height: 50px;
   margin: auto;
-  /* text-align: center; */
 }
